@@ -1,0 +1,37 @@
+{
+  "name": "grout-vite-plugin",
+  "version": "0.1.0",
+  "description": "A Vite plugin that fills every grout identifier with void.",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "lint": "tsc -p tsconfig.json --noEmit",
+    "test": "vitest run"
+  },
+  "keywords": [
+    "vite",
+    "plugin",
+    "grout",
+    "meme"
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "vite": "^5.0.0 || ^6.0.0 || ^7.0.0"
+  },
+  "devDependencies": {
+    "typescript": "5.7.2",
+    "vite": "7.2.4",
+    "vitest": "4.0.14"
+  }
+}
