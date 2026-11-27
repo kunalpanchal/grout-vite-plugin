@@ -3,6 +3,10 @@
   "version": "0.1.0",
   "description": "A Vite plugin that fills every grout identifier with void.",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kunalpanchal/grout-vite-plugin.git"
+  },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "exports": {
